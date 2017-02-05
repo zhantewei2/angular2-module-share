@@ -1,6 +1,5 @@
 import {Directive} from '@angular/core';
 import {ScrollService} from './scroll.service';
-import 'rxjs/add/observable/of';
 @Directive({
 	selector:'[ztwScrollBind]'
 })
