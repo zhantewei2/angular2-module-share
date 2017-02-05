@@ -10,9 +10,9 @@ component:
 
 `<div  ztwScrollBind>`
 
-	<div  (leaved)='fn2($event)' (scrolled)='fn1($event)'>one</div>
-	<div  (leaved)='fn2($event)' (scrolled)='fn1($event)'>two</div>	
-	<div  (leaved)='fn2($event)' (scrolled)='fn1($event)'>three</div>
+	<div  (leaved)='fn2($event)' (scrolled)='fn1($event)' ztwScrollControl>one</div>
+	<div  (leaved)='fn2($event)' (scrolled)='fn1($event)' ztwScrollControl>two</div>	
+	<div  (leaved)='fn2($event)' (scrolled)='fn1($event)' ztwScrollControl>three</div>
 	
 `</div>`
 
