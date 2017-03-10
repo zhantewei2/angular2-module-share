@@ -15,9 +15,9 @@ component:
 	</ztwScroll>
 	<button (click)='scrollValue='2''> goto2</button>
 
-when body.scrollTop scrolled control,you can get scrollValue that the value of control.value;
+when body.scrollTop scrolled control,you can get `scrollValue` that the value of control.value;
 
-set scrollValue，will touch window.scrollTo();
+set `scrollValue`，will touch window.scrollTo();
 ***
 
 	<ztwScroll [throttleTime]='100' [baseLine]='50' [(ngModel)]='scrollValue'>
