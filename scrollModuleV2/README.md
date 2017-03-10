@@ -20,6 +20,7 @@ when body.scrollTop scrolled control,you can get scrollValue that the value of c
 
 
 `<ztwScroll [throttleTime]='100' [baseLine]='50' [(ngModel)]='scrollValue'>`
-If you want scrolled your navBar which is fixed top,you can set `baseLine`;
+If you want scrolled your navBar which is fixed on the top,you can set `baseLine`;
+
 The  default value of the `throttleTime`  is 0;
 
