@@ -15,13 +15,12 @@ component:
 	<div  value='3' ztwScrollControl>three</div>
 	
 `</ztwScroll>`
-1.
+***
 when body.scrollTop scrolled control,you can get scrollValue that the value of control.value;
-2.
+
 
 	<ztwScroll [throttleTime]='100' [baseLine]='50' [(ngModel)]='scrollValue'>
-If you want scrolled your navBar which is fixed on the top,you can set `baseLine`;
-3.
+If you want scrolled your navBar which is fixed on the top,you can set `baseLine`;***
 The  default value of the `throttleTime`  is 0;
 
 	<ztwScroll [(ngModel)]='scrollValue'>
