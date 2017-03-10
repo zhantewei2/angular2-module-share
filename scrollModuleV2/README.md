@@ -8,11 +8,15 @@ app.module:
 use it as follow:	
 component:
 
-`<div  ztwScrollBind>`
+`<ztwScroll [(ngModel)]='scrollValue'>`
 
-	<div  (leaved)='fn2($event)' (scrolled)='fn1($event)' ztwScrollControl>one</div>
-	<div  (leaved)='fn2($event)' (scrolled)='fn1($event)' ztwScrollControl>two</div>	
-	<div  (leaved)='fn2($event)' (scrolled)='fn1($event)' ztwScrollControl>three</div>
+	<div  value='1' ztwScrollControl>one</div>
+	<div  value='2' ztwScrollControl>two</div>	
+	<div  value='3' ztwScrollControl>three</div>
 	
-`</div>`
+`</ztwScroll>`
+
+when body.scrollTop scrolled control,you can get scrollValue that the value of control.value;
+
+`<ztwScroll [throttle]='100' [baseLine]='50' [(ngModel)]='scrollValue'>`
 
